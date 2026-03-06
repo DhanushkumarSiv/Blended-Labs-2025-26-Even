@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Dhanushkumar Sivakumar
+* **Register Number**: 212224040067
+* **Date of Submission**: 06-03-2026
 
 ---
 
@@ -98,11 +98,11 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. .A Virtual Private Cloud (VPC) was created with the CIDR block 10.0.0.0/16 to provide a secure and isolated network environment in AWS.
+2. .A public subnet was then created within the VPC using the CIDR block 10.0.1.0/24, and the auto-assign public IPv4 option was enabled to allow internet access for the instances launched inside it.
+3. An Internet Gateway was created and attached to the VPC to enable internet connectivity. A route table was configured with a default route (0.0.0.0/0) pointing to the Internet Gateway, and this route table was associated with the public subnet.
+4. A security group was created to allow inbound SSH (port 22) and HTTP (port 80) traffic. After configuring the security group, an EC2 instance was launched using the Amazon Linux 2 AMI. The instance was associated with the created security group and a key pair for secure access.
+5. The EC2 instance was connected using SSH. The Apache HTTPD web server was installed and started on the instance
 
 ---
 
@@ -110,19 +110,28 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/d065d8eb-9b07-4d70-9cb7-63a25b0083ae" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+
+<img width="1920" height="1200" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/013d550c-43f5-4999-8106-6b04e1147ded" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+
+<img width="1920" height="1200" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/0f4fd14f-a55d-4cee-b4d5-6752c5eea56b" />
+
+
+<img width="1920" height="1200" alt="Screenshot (95)" src="https://github.com/user-attachments/assets/8344d85b-7768-4478-8427-98a2a6cb82f1" />
+
+
 
 ---
 
