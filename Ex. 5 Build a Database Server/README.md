@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Dhanushkumar Sivakumar
+* **Register Number**: 212224040067
+* **Date of Submission**: 17-03-2026
 
 ---
 
@@ -82,13 +82,12 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged into the AWS Academy portal and accessed the Lab 5 environment using the provided credentials.
+2. Opened the required AWS service (like EC2 / S3 / RDS) from the AWS Management Console.
+3. Configured the necessary resources by following the lab instructions (such as creating instances, buckets, or databases).
+4. Set up permissions, security groups, or policies to ensure proper access and functionality.
+5. Tested the setup and verified the output to confirm that the lab task was completed successfully.
 
 ---
 
@@ -96,19 +95,23 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/87c5f73e-8379-45c7-8663-68c8c54d36f8" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+
+<img width="1920" height="1200" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/ea504fb9-8a4f-41a3-8a05-66c5454bdf89" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/739d735c-012e-4b3d-a3d4-dd3a4dd33294" />
+
 
 ---
 
