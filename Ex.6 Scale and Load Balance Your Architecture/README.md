@@ -3,7 +3,10 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+
+Author : Dhanushkumar Sivakumar  
+Reg no : 212224040067   
+Date   : 18-03-2026
 
 ---
 
@@ -66,14 +69,51 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1. **Review Existing Architecture**  
+   - Examine the current EC2 setup, note AMI, instance type, security groups, and user data.  
+   - Identify limitations such as single‑instance bottlenecks or lack of scaling.
+
+2. **Create a Launch Template**  
+   - Define EC2 configuration (AMI, instance type, security group, user data).  
+   - Save the template for reuse in Auto Scaling operations.
+
+3. **Create an Auto Scaling Group (ASG)**  
+   - Use the launch template to build the ASG.  
+   - Configure minimum, maximum, and desired capacity, and select availability zones.
+
+4. **Configure an Application Load Balancer (ALB)**  
+   - Create the ALB with listeners (HTTP/HTTPS).  
+   - Define target groups and health checks for routing traffic.
+
+5. **Register Auto Scaling Group with Load Balancer**  
+   - Attach the ASG to the ALB’s target group.  
+   - Ensure instances launched by ASG are automatically registered and monitored.
+
+6. **Configure Scaling Policies**  
+   - Set CloudWatch alarms to trigger scaling actions.  
+   - Example: scale out when CPU > 70%, scale in when CPU < 30%.
+
+7. **Test Load Balancing and Scaling**  
+   - Generate traffic using tools (e.g., JMeter, Locust).  
+   - Observe ALB distributing requests and ASG adjusting capacity automatically.
+
 
 ---
 
-## Output Screenshots 
+## Output Screenshots :
 
 
----
+<img width="1920" height="1200" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/f70fb9a3-3801-4332-9827-1dae0e56a49e" />
+
+
+<img width="1920" height="1200" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/762bc395-421b-4736-8785-22f2846dfa62" />
+
+
+<img width="1920" height="1200" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/f3245e17-e2d2-4951-a345-76ae989dc39f" />
+
+
+
+
 
 
 ## Result
